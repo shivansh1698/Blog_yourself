@@ -23,9 +23,10 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'blog/templates/blog')
 SECRET_KEY = 'qyuu3xah4rw4lt@m#jy=b60j@1hw_77^o2h=j9yci%_5dx3w+5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['shivansh1698.pythonanywhere',
+ALLOWED_HOSTS = [
+    'shivansh1698.pythonanywhere',
 
 ]
 
