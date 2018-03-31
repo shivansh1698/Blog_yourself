@@ -125,3 +125,7 @@ MEDIA_ROOT = u'/home/shivansh1698/Blog_yourself/Blog_Yourself/media'
 MEDIA_URL = '/media/'
 STATIC_ROOT = u'/home/shivansh1698/Blog_yourself/Blog_Yourself/static'
 STATIC_URL = '/static/'
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
